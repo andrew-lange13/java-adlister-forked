@@ -14,6 +14,7 @@ public class HelloWorldServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<h1>Hello, World!</h1>");
 
+
         hitCounter++;
         out = response.getWriter();
         String title = "Hit Counter";
